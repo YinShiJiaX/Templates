@@ -1,16 +1,15 @@
+" 显示行号
 set nu
 
+" 一个TAB为4个空格
+set ts=4
+set expandtab
+
+" 支持taglist（先安装taglist插件）
 let Tlist_Auto_Open=1
-"let Tlist_Ctags_Cmd='/usr/bin/ctags'
 let Tlist_Show_One_File=1
-"set tags=./tags;
-"set autochdir
 
+" 当前行下划线
 set cursorline
-
-"map <F3> :NERDTreeMirror<CR>
-"map <F3> :NERDTreeToggle<CR>
-
-"autocmd VimEnter * NERDTree
 
 
