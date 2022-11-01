@@ -14,6 +14,18 @@ set fileencodings=ucs-bom,utf-8,cp936
 set fileencoding=utf-8
 set encoding=utf-8
 
+" 添加一些键映射
+let mapleader = ","                                                                                                 
+inoremap jk <esc>
+inoremap ( ()<esc>i
+inoremap { {}<esc>i
+inoremap [ []<esc>i
+nnoremap <leader>w :w<cr>
+nnoremap <leader>q :qa<cr>
+nnoremap <leader>, <c-^><cr>
+nnoremap - ddp
+
+
 " 当前行下划线
 set cursorline
 
