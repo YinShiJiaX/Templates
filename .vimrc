@@ -4,8 +4,8 @@ set expandtab
 set cindent
 set shiftwidth=4
 
-let Tlist_Auto_Open=1
-let Tlist_Show_One_File=1
+# let Tlist_Auto_Open=1
+# let Tlist_Show_One_File=1
 
 set fileencodings=ucs-bom,utf-8,cp936
 set fileencoding=utf-8
